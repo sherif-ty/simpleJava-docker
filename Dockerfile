@@ -5,10 +5,10 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy the Java application to the container
-COPY Docker.java .
+COPY HelloDocker.java .
 
 # Compile the Java application
-RUN javac Docker.java
+RUN javac HelloDocker.java
 
 # Command to run the Java application
 CMD ["java", "Docker"]
