@@ -1,0 +1,4 @@
+docker build -t java-hello-Docker .
+
+docker run java-hello-Docker
+
